@@ -3,8 +3,79 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title></title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
 </head>
 <body>
-<H1>My Resume</H1>
+    <div class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle"
+                        data-toggle="collapse" data-target="#myNavBar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">My Header</a>
+            </div>
+            <div id="myNavBar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Menu 1</a></li>
+                    <li><a href="#">Menu 2</a></li>
+                    <li><a href="#">Menu 3</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+            <div class="jumbotron">
+                <H1>My Resume</H1>
+                <p>Hi This is my resume</p>
+                <button class="btn btn-success">Contact Me</button>
+            </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <H1>Contact ME</H1>
+            </div>
+        </div>
+
+        <hr>
+        <div class="row">
+            <div class="col-md-12">
+                    <form>
+                        <div class="form-group">
+                            <label for="firstName"> First Name</label>
+                            <input class="form-control" type="text" id="firstName">
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Last Name</label>
+                            <input class="form-control" type="text" id="lastName">
+                        </div>
+                        <div class="form-group">
+                            <label for="emailAddress">Email Address</label>
+                            <input class="form-control" type="email" id="emailAddress">
+                        </div>
+
+                        <input type="submit" class="btn btn-primary">
+                    </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-4 col-md-2">
+                <p>This is column 1</p>
+            </div>
+            <div class="col-xs-4 col-md-2">
+                <p>This is column 2</p>
+            </div>
+            <div class="col-xs-12 col-md-8">
+                <p>This is column 8</p>
+            </div>
+
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
 </body>
 </html>
